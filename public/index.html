@@ -6,9 +6,24 @@
   <title>QRcode Maker</title>
   <link rel="stylesheet" href="../src/css/styles.css">
   <link rel="shortcut icon" href="../src/assets/img/qr-code-236-32.png" type="image/x-icon">
-  <script src="../src/js/index.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="../src/js/index.js" defer></script>
 </head>
 <body>
-  
+  <main class="container">
+    <div id="div-form">
+      <h1>Gerador de QRcode</h1>
+      <p>Insira uma url ou um texto para gerar o seu QRcode</p>
+      <form id="form">
+        <input type="text" id="input" name="text" placeholder="Digite a URL ou texto">
+        <input type="submit" id="submit" value="Gerar QRcode">
+      </form>
+    </div>
+    <div id="qrcode-gerado">
+      <img src="../src/assets/img/qr-code-236-32.png" alt="">
+    </div>
+  </main>
 </body>
 </html>

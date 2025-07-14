@@ -3,4 +3,80 @@
   padding: 0;
   margin: 0;
   background-color: green;
+  font-family: Roboto 
+}
+
+.container{
+  min-height: 100vh;
+}
+
+#div-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  height: 300px;
+  margin: 100px auto;
+  background-color: #fcfcfc;
+  border-radius: 1rem;
+  color: #333;
+}
+
+#div-form h1,
+#div-form p{
+  margin-bottom: 1.5rem;
+  background-color: #fcfcfc;
+  
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  background-color: #fcfcfc;
+}
+
+#form input{
+    background-color: #f4f0f0;
+    border: 1px solid #333;
+    margin-bottom: .5rem;
+    width: 400px;
+    height: 50px;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+#form input[type="submit"]{
+  background-color: rgb(0, 91, 0);
+  color: #f4f0f0;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .5s;
+  
+}
+
+#form input[type="submit"]:hover{
+  color: goldenrod;
+  opacity: 80%;
+}
+
+#qrcode-gerado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 300px;
+  margin: 200px auto;
+  background-color: #fcfcfc;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+#qrcode-gerado img{
+  width: 200px;
+  height: 200px;
+  border-radius: 1rem;
+  background-color: #f4f0f0;
+
 }
